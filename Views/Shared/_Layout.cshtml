@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Icon in Tab -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" type="image/x-icon">
+
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a asp-controller="Main" asp-action="Index">Home</a> |
+        <a asp-controller="Main" asp-action="Grade">Grade Calculator</a>
+    </nav>
+
+    <br />
+
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <link href="~/lib/bootstrap/js/bootstrap.min.js" />
+
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>

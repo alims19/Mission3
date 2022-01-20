@@ -1,0 +1,35 @@
+﻿
+.center {
+    width: 32%;
+    margin: auto;
+    display: block;
+}
+
+.text {
+    color: cornflowerblue;
+    font-family:initial;
+    font-weight: bold;
+    border: ridge;
+    background-color: whitesmoke;
+}
+
+label {
+    font-size: 20px;
+    width: 150px;
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/flower.jpeg");
+}
+
+.title {
+    color: indianred;
+    font-family: initial;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
